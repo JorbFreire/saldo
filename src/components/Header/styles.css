@@ -1,0 +1,14 @@
+.mainHeader {
+  display: flex;
+  align-items: center;
+  height: auto;
+  padding: 10px 20px 11px 13px;
+  background-color: greenyellow;
+}
+.profilePhoto {
+  width: calc( var(--header-height) - 21px );
+  height: calc( var(--header-height) - 21px );
+  object-fit: cover;
+  border-radius: 50%;
+  border: solid #4C77BF 1px;
+}

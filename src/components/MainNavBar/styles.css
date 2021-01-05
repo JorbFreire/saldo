@@ -1,0 +1,16 @@
+.mainNavBar {
+  background-color: hotpink;
+  width: calc( var(--nav-width) );
+}
+
+.mainNavBar .link {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: indigo;
+}
+
+.mainNavBar .link .icon {
+  width: 52.18%;
+  background-color: yellow;
+}

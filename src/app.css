@@ -1,0 +1,12 @@
+.App {
+  --header-height: 71px;
+  --nav-width: 46px;
+  background: #F9F9F9;
+}
+
+.App .main {
+  display: flex;
+  width: 100%;
+  height: calc( 100% - var(--header-height) );
+  background-color: red;
+}
