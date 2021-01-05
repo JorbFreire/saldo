@@ -1,6 +1,7 @@
 .App {
   --header-height: 71px;
   --nav-width: 46px;
+  --dafult-radius: 5px;
   background: #F9F9F9;
 }
 

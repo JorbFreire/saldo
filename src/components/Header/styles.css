@@ -1,14 +1,98 @@
 .mainHeader {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+
   height: auto;
   padding: 10px 20px 11px 13px;
-  background-color: greenyellow;
+  background-color: #FFF;
 }
-.profilePhoto {
+
+/* INFO */
+.mainHeader .info {
+  display: flex;
+  align-items: center;
+}
+
+.mainHeader .info .divider {
+  width: 1px;
+  height: 25px;
+  margin-left: 6.5px;
+  background-color: #E5E4E2;
+}
+
+.mainHeader .info section div {
+  display: flex;
+}
+.mainHeader .info section div:first-of-type {
+  margin-bottom: 5px;
+}
+.mainHeader .info section div:first-of-type img {
+  margin-left: 10px;
+}
+/* account */
+.mainHeader .info .account {
+  margin: 0 20px 0 19.5px;
+}
+
+.mainHeader .info .account .title {
+  font-size: 1.6rem;
+}
+
+.mainHeader .info .account .arrow {
+  margin-bottom: -3px;
+}
+
+.mainHeader .info .account .agency,
+.mainHeader .info .account .number {
+  font-size: 1.2rem;
+  color: #622EE5;
+}
+
+.mainHeader .info .account .number {
+  margin: 0 10px 0 15px;
+}
+/* balance */
+.mainHeader .info .balance p {
+  font-size: 1.4rem;
+}
+
+/* UTILS */
+.mainHeader .utils {
+  display: flex;
+  align-items: center;
+}
+
+.mainHeader .utils .inputBox {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 160px; 
+  height: 30px;
+
+  margin-right: 8px;
+  border: solid #778899 0.5px;
+  border-radius: var(--dafult-radius);
+}
+
+.mainHeader .utils .inputBox input {
+  width: calc( 100% - 28px );
+  height: 100%;
+  padding-left: 16px;
+  border: none;
+  background: none;
+}
+
+.mainHeader .utils .action {
+  margin: 8px;
+}
+
+.mainHeader .utils .profilePhoto {
   width: calc( var(--header-height) - 21px );
   height: calc( var(--header-height) - 21px );
-  object-fit: cover;
+  margin-left: 10px;
+  
   border-radius: 50%;
   border: solid #4C77BF 1px;
+  object-fit: cover;
 }
