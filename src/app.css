@@ -9,5 +9,8 @@
   display: flex;
   width: 100%;
   height: calc( 100% - var(--header-height) );
-  background-color: red;
+}
+
+.App .main .pageContent {
+  width: 100%;
 }

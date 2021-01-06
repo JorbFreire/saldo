@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.subHeader {
+  --icons-margin-horizontal: 8px;
+  display: flex;
+  width: 100%;
+  background: #F9F9F9;
+  box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+  padding: 3px var(--icons-margin-horizontal) 0;
+}
+
+.subHeader {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.subHeader .iconBox {
+  width: fit-content;
+  height: fit-content;
+  background: linear-gradient(
+    135deg,
+    #FFFFFF 0%,
+    #EFEEED 62.77%,
+    #E5E4E2 100%
+  );
+
+  margin: 0 8px;
+  margin-bottom: 2px;
+  padding: 6px;
+  padding-bottom: 4px;
+  border-radius: 50%;
+}
+
+.subHeader .iconBox:last-of-type {
+  margin-right: 0;
+}
+
+.subHeader .budgetBox {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 32px;
+}
+
+.subHeader .budgetBox .budgetIconBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+
+  border-radius: 50%;
+  font-family: 'Raleway';
+  font-weight: 600;
+  color: #FFF;
+}
+
+.subHeader .budgetBox .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 10px;
+}
