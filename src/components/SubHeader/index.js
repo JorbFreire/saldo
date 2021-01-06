@@ -12,7 +12,7 @@ export default function SubHeader() {
     {
       title: 'Aluguel',
       value: 'R$1.600,00',
-      background: 'linear-gradient(135deg, #FF354E 0%, #172765 100%)'
+      background: 'linear-gradient(135deg, #778899 0%, #172765 100%)'
     },
     {
       title: 'Alimentação',
